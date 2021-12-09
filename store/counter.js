@@ -5,5 +5,8 @@ export const state = () => ({
 export const mutations = {
   countUp: function(state){
     state.counter++
+  },
+  countReset: function(state){
+    state.counter = 0
   }
 }
